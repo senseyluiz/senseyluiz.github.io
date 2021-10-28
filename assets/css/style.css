@@ -2,8 +2,11 @@
     --text-color-1: #074d34;
     --text-color-2: #fff;
     --title-color1: #DD7017;
-    --background-1: #FFECE1;
-    --background-2: #F4E0D5;
+    --background-1: #F4E0D5;
+    --background-2: #079F79;
+    --title-size: 30pt;
+    --text-size: 20pt;
+
 }
 
 
@@ -11,20 +14,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .geral{
-    width: 1200px;
+    
     max-width: 1200px;
     margin: 0 auto;
 }
 
+img{
+    
+}
 
 /* HEADER */
 
-header{
-   background-color: var(--background-1);
-   padding: 20px 0;   
+header{ 
+   background-color: #FFECE1;
+   padding: 20px 0; 
+   position: fixed;  
+   width: 100%;
 
 }
 
@@ -44,3 +53,37 @@ nav ul li a{
 #menu-mobile{
     display: none;
 }
+
+/* WELCOMME */
+
+.welcomme{
+    
+    background-color: var(--background-1);
+    height: 100vh;
+    
+}
+
+.welcomme .geral{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.welcomme h2{
+    margin-bottom: 20px;
+    font-size: var(--title-size);
+    color: var(--title-color1);
+}
+
+.welcomme .text{
+    text-align: center;
+}
+
+.welcomme p{
+    font-size: var(--text-size);
+    color: var(--text-color-1);
+}
+
+
+
+
