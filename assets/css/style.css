@@ -56,34 +56,52 @@ nav ul li a{
 
 /* WELCOMME */
 
-.welcomme{
-    
+#welcomme{
+    padding-top: 50px;
     background-color: var(--background-1);
-    height: 100vh;
+    
     
 }
 
-.welcomme .geral{
+#welcomme .geral{
     display: flex;
     justify-content: space-between;
     align-items: center;    
 }
 
-.welcomme h2{
+#welcomme h2{
     margin-bottom: 20px;
     font-size: var(--title-size);
     color: var(--title-color1);
 }
 
-.welcomme .text{
+#welcomme .text{
     text-align: center;
 }
 
-.welcomme p{
+#welcomme p{
     font-size: var(--text-size);
     color: var(--text-color-1);
 }
 
 
+/* SOBRE */
+
+
+#sobre{
+    padding-top: 100px;
+    background-color: var(--background-2);
+}
+
+#sobre .geral{
+    display: flex;
+    flex: 1;
+}
+
+#sobre h2{
+    font-size: var(--title-size);
+    color: var(--title-color1);
+    margin-bottom: 20px;
+}
 
 
