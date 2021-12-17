@@ -1,0 +1,38 @@
+#geral {
+  background-color: rgb(250, 208, 144);
+  width: 500px;
+  height: 500px;
+  padding-top: 50px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#paleta {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ball {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+#reset-game {
+  width: 80px;
+  font-size: 20px;
+  color: cornsilk;
+  background-color: rgb(17, 83, 3);
+  border-radius: 5px;
+}
