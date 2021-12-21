@@ -9,11 +9,11 @@
 ## Layout para Mobile
 <img src = 'design/mobile-design.jpg'><br><br>
 
-Este projeto teve como objetiv trabalhar:
+Este projeto teve como objetivo trabalhar:
 
 
 	* Design responsivo;
-	* Validação de formulário;
+	* Validação de formulário com JavaScript;
 	* Flexbox
 
 
