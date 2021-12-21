@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  ;
+}
+
+:root {
+  --bgButton: hsl(154, 59%, 51%);
+  --error: hsl(0, 100%, 74%);
+  --bgPromotion: hsl(248, 32%, 49%);
+  --borderAtiva: hsl(249, 10%, 26%);
+  --borderColor: hsl(246, 25%, 77%);
+  --span: hsl(0, 94%, 56%);
+}
+
+body {
+  background-image: url(images/bg-intro-desktop.png);
+  background-color: var(--error);
+}
+
+#geral {
+  height: 100vh;
+  display: flex;
+}
+
+main {
+  display: flex;
+  max-width: 1440px;
+  margin: auto;
+  justify-content: space-around;
+  align-content: center;
+}
+
+section {
+  align-content: center;
+  width: 40%;
+}
+
+#descricao {
+  color: white;
+  align-self: center;
+}
+
+#descricao p {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#promocao {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--bgPromotion);
+  color: white;
+  text-align: center;
+}
+
+form {
+  width: 100%;
+  background-color: white;
+  margin-top: 20px;
+  padding: 55px 20px;
+  border-radius: 10px;
+}
+
+form input {
+  width: 90%;
+  padding: 5px 15px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 1px solid var(--borderColor)
+}
+
+form input:focus {
+  border: 1px solid var(--borderColor);
+  opacity: 0.8;
+}
+
+button {
+  width: 90%;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--bgButton);
+  font-size: 16px;
+  padding: 5px;
+  color: white;
+  border: 1px solid teal;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: hsl(154, 56%, 35%);
+  transition: 0.1s;
+}
+
+button:active {
+  background-color: hsl(154, 90%, 15%);
+}
+
+form p {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+span {
+  color: var(--error);
+  font-weight: 600;
+}
+
+.error {
+  position: relative;
+  left: -35px;
+  top: 5px
+}
+
+.nome img,
+.sobrenome img,
+.email img,
+.senha img {
+  display: none;
+}
+
+.erroNome,
+.erroSobreNome,
+.erroEmail,
+.erroSenha {
+  color: red;
+  text-align: right;
+  position: relative;
+  margin-top: -20px;
+  margin-right: 10%;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 732px) {
+  main {
+    display: block;
+    padding: 20px;
+  }
+  section {
+    width: 100%;
+  }
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .error {
+    width: 8%;
+  }
+}

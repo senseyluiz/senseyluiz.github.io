@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+
+<body>
+
+  <div id="geral">
+
+    <main>
+      <section id="descricao">
+
+        <h1> Learn o code by <br>watching others </h1>
+        <p>See how esperienced developers solve problems in real-time. <br> watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+
+      </section>
+      <!--descricao-->
+
+      <section id="formulario">
+        <div id="promocao">
+          <strong>Try free 7 days </strong>then $20/mo.thereafter
+        </div>
+
+        <form>
+
+          <div class="nome">
+            <label for="name"><input type="text" placeholder="name" id="name"></label>
+            <img src="images/icon-error.svg" class="error">
+            <p class="erroNome"></p>
+          </div>
+
+          <div class="sobrenome">
+            <label for="last-name"> <input type="text" placeholder="last-name" id="last-name"></label>
+            <img src="images/icon-error.svg" class="error">
+            <p class="erroSobreNome"></p>
+          </div>
+
+          <div class="email">
+            <label for="email"> <input type="email" placeholder="Email Address" id="email"></label>
+            <img src="images/icon-error.svg" class="error">
+            <p class="erroEmail"></p>
+          </div>
+
+          <div class="senha">
+            <label for="password"> <input type="password" placeholder="Password" id="password"></label>
+            <img src="images/icon-error.svg" class="error">
+            <p class="erroSenha"></p>
+          </div>
+
+          <button type="submit" id="submit"> claim your free trial</button>
+
+          <p>By clicking the button you are agreeng to our <span>Terms and Services</span></p>
+
+        </form>
+
+
+      </section>
+      <!--formulario-->
+    </main>
+
+  </div>
+
+</body>
+
+</html>
