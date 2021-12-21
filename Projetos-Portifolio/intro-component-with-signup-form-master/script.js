@@ -51,14 +51,12 @@ enviar.addEventListener('click', (e) => {
     email.style.border = '2px solid red';
     divEmail.children[1].style.display = 'inline-block'
     pErroEmail.innerHTML = 'Email cannot be empty'
-    email.value = 'email@exemple.com';
-    email.style.color = 'red';
 
   } else {
     email.style.border = "1px solid var(--borderColor)"
     divEmail.children[1].style.display = 'none'
     pErroEmail.innerHTML = ''
-    email.style.color = '';
+
   }
 
   if (!senha.value) {
