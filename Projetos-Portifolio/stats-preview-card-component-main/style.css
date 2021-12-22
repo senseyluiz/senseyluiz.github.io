@@ -57,7 +57,7 @@ img {
   margin: 50px auto;
 }
 
-h1 {
+#titulo>h2 {
   font-size: 36px;
   color: var(--main-heading-stats);
   margin-bottom: 50px;
