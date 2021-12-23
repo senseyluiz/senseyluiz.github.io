@@ -181,6 +181,10 @@ article {
   margin-bottom: 20px;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .flex {
   display: flex;
   justify-content: space-between;
@@ -203,7 +207,7 @@ article {
 .date-views .date {
   background-color: #2b4c99;
   padding: 10px;
-  margin-right: 5px;
+  margin-right: 3px;
 }
 
 .date-views .views {
@@ -217,6 +221,7 @@ article img {
 
 article h3 {
   margin: 20px 0;
+  color: #2b4c99;
 }
 
 article p {
@@ -247,7 +252,7 @@ article .posted a {
 }
 
 .utilities .imagem {
-  width: 200px;
+  max-width: 150px;
   margin-right: 10px;
 }
 
@@ -256,7 +261,7 @@ article .posted a {
 }
 
 .utilities img {
-  width: 150px;
+  max-width: 150px;
 }
 
 .utilities p {
@@ -352,3 +357,117 @@ article .posted a {
 
 
 /* Fim Aside*/
+
+
+/*Footer*/
+
+footer {
+  margin-top: 30px;
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+}
+
+footer .container {
+  flex-direction: column;
+}
+
+.footer-menu {
+  display: flex;
+  flex: 1;
+  font-size: 21px;
+}
+
+.footer-menu a {
+  display: block;
+  text-decoration: none;
+}
+
+.footer-menu p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.footer-menu i {
+  margin-left: 10px;
+}
+
+.fm_1,
+.fm_2,
+.fm_3 {
+  flex: 1;
+  color: white;
+  padding: 20px;
+}
+
+.fm_1 {
+  background-color: #39aae1;
+}
+
+.fm_2 {
+  background-color: #0079c7;
+}
+
+.fm_3 {
+  background-color: #2b4c99;
+}
+
+.footer-area {
+  display: flex;
+}
+
+.footer-area-item {
+  flex: 1;
+  color: white;
+}
+
+.footer-copy {
+  color: #5c5c5c;
+  font-size: 12px;
+  line-height: 40px;
+  border-top: 1px solid #5c5c5c;
+  margin-top: 30px;
+}
+
+.footer-content1 {
+  padding-right: 20px;
+  color: #6d6b6b;
+}
+
+.footer-content1 p {
+  font-size: 14px;
+}
+
+.address {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 40px;
+  padding-right: 20px;
+}
+
+.address {
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.address a {
+  text-decoration: none;
+  color: #6d6b6b;
+  font-weight: 600;
+}
+
+.icons-social {
+  display: flex;
+  margin-top: 10px;
+}
+
+.icons-social a {
+  text-decoration: none;
+  color: #727272;
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+
+/* Fim Footer*/
