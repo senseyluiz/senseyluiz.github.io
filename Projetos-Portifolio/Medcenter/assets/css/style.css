@@ -469,5 +469,21 @@ footer .container {
   margin-right: 5px;
 }
 
+.latest-post {
+  color: #6d6b6b;
+  font-size: 14px;
+}
+
+.latest-post p {
+  line-height: 15px;
+}
+
+.latest-post a {
+  display: block;
+  text-decoration: none;
+  color: #0079c7;
+  margin-bottom: 20px;
+}
+
 
 /* Fim Footer*/
