@@ -149,3 +149,90 @@ nav a:hover {
 
 
 /* Fim Banner*/
+
+
+/* Geral */
+
+#geral {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  flex: 2;
+}
+
+#geral aside {
+  flex: 1;
+}
+
+.widget-title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.widget-title hr {
+  border-color: #39aae1;
+  margin-top: 10px;
+  width: 50px;
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.artigos {
+  flex: 1;
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+
+.date-views {
+  display: flex;
+  justify-content: start;
+  color: white;
+  font-size: 12px;
+  padding-bottom: 15px;
+}
+
+.date-views .date {
+  background-color: #2b4c99;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.date-views .views {
+  background-color: #39aae1;
+  padding: 10px;
+}
+
+article img {
+  max-width: 100%;
+}
+
+article h3 {
+  margin: 20px 0;
+}
+
+article p {
+  margin-bottom: 20px;
+  color: rgb(97, 96, 96);
+  font-size: 15px;
+  line-height: 20px;
+}
+
+article .posted {
+  font-size: 12px;
+}
+
+article .posted a {
+  color: rgb(97, 96, 96);
+}
+
+
+/* Fim Geral */
