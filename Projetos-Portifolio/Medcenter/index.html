@@ -13,7 +13,7 @@
 
 <body>
 
-  <header>
+  <header id="topo">
 
     <div class="container">
 
@@ -24,6 +24,10 @@
       <div class="menu">
 
         <nav>
+
+          <div class="menu-mobile">
+            <i class="fas fa-bars"></i>
+          </div>
 
           <ul>
             <li><a href="" class="active"> Home</a></li>
@@ -497,12 +501,34 @@
 
 
       <div class="footer-copy">
-        &copy; Todos os direitos reservados - <strong>Medicenter Theme </strong> by <strong>QuanticaLabs</strong> - Código Fonte por <strong>Luis Henrique</strong>
+
+        <div>
+          &copy; Todos os direitos reservados - <strong>Medicenter Theme </strong> by <strong>QuanticaLabs</strong> - Código Fonte por <strong>Luis Henrique</strong>
+        </div>
+
+
+        <p><a href="#topo">Top <i class="fas fa-long-arrow-alt-up"></i></a></p>
+
       </div>
       <!--footer-copy-->
 
     </div>
+    <!--container-->
   </footer>
+
+  <script>
+    let menuMobile = document.querySelector(".menu-mobile");
+    let ul = document.querySelector("ul");
+    menuMobile.addEventListener("click", () => {
+      if (ul.style.display == 'none') {
+
+        ul.style.display = 'block';
+      } else {
+        ul.style.display = 'none'
+      }
+
+    })
+  </script>
 
 </body>
 
