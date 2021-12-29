@@ -293,6 +293,18 @@ header a {
 
 /* Portifólio */
 
+.bgportifolio {
+  background-color: rgb(221, 250, 240);
+  padding-top: 100px;
+}
+
+.bgportifolio h2 {
+  margin-bottom: 40px;
+  font-size: 40px;
+  text-align: center;
+  color: var(--text-color-1);
+}
+
 .box-projetos {
   display: flex;
   flex-wrap: wrap;
