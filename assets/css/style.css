@@ -286,3 +286,41 @@ header a {
   font-weight: 600;
   margin-top: 60px;
 }
+
+
+/* Fim Soft Skills*/
+
+
+/* Portifólio */
+
+.box-projetos {
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--text-color-1);
+}
+
+.projeto {
+  margin-bottom: 40px;
+  background-color: rgb(252, 244, 233);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  flex: 40%
+}
+
+.projeto h3 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.projeto img {
+  max-width: 100%;
+}
+
+.projeto p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+
+/* Fim Portifólio */
