@@ -428,7 +428,7 @@ footer {
   #bemvindo,
   #sobre,
   #servicos,
-  .bgHabilidades .tecnologia {
+  .bgHabilidades {
     text-align: center;
     padding: 10px;
   }
@@ -474,5 +474,9 @@ footer {
   }
   #imgServicos {
     order: -1;
+  }
+  .tecnologia .image {
+    width: 300px;
+    margin: auto;
   }
 }
