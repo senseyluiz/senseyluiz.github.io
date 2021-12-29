@@ -336,3 +336,63 @@ header a {
 
 
 /* Fim Portifólio */
+
+
+/*  Contatos */
+
+.bgcontato {
+  background-color: var(--background-1);
+}
+
+.box-contato {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+}
+
+.contato {
+  flex: 50%;
+  color: #074d34;
+}
+
+.contato h2 {
+  font-size: 40px;
+  color: #DD7017;
+}
+
+.contato h4 {
+  font-size: 25px;
+  color: var(--text-color-1);
+}
+
+.contato p {
+  font-size: 20px;
+  margin-top: 15px;
+  color: #074d34;
+}
+
+.contato a {
+  text-decoration: none;
+}
+
+.contato span img {
+  width: 20px;
+}
+
+.box-contato .imagem {
+  flex: 50%;
+}
+
+.box-contato img {
+  max-width: 100%;
+}
+
+
+/* Fim Contatos */
+
+footer {
+  background-color: #DD7017;
+  text-align: center;
+  font-weight: 600;
+  padding: 10px;
+}
